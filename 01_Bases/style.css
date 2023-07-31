@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(255, 255, 250);
+}
+
+.cuadrado{
+    height: 10cm;
+    width: 10cm;
+    background-color: steelblue;
+    color: white;
+    border: 2px solid black;
+}

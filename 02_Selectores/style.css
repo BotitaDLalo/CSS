@@ -1,0 +1,46 @@
+/** Selector universal */
+
+*{
+    background: snow;
+}
+
+/**Selector de tipo*/
+h2 {
+  font-size: 50px;
+}
+li {
+  color: brown;
+}
+
+/** Selector de clase */
+
+.series {
+  background-color: blueviolet;
+}
+
+.peliculas {
+  background-color: seagreen;
+}
+
+.pelicula {
+  font-size: 40px;
+}
+
+.chida {
+  background-color: wheat;
+}
+
+.espaciado {
+  letter-spacing: 20px;
+}
+
+/** Selector por Id*/
+#temporada3 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+#nowayhome {
+  background-color: rgb(88, 247, 173);
+  text-decoration: underline;
+}
