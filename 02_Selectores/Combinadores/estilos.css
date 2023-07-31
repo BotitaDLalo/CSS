@@ -1,0 +1,25 @@
+/** Combinador de descendientes */
+
+ul .lista {
+  background-color: rgb(255, 201, 201);
+}
+
+.todo .lista {
+  list-style: armenian;
+  text-decoration: underline;
+}
+
+.dias .lista {
+  list-style: none;
+}
+
+/** Combinador de hijos directos */
+
+.listas > .lista{
+    list-style: upper-alpha;
+}
+
+.dias .lista{
+    text-decoration: underline;
+    font-size: 25px;
+}
