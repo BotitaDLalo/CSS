@@ -15,11 +15,38 @@ ul .lista {
 
 /** Combinador de hijos directos */
 
-.listas > .lista{
-    list-style: upper-alpha;
+.listas > .lista {
+  color: blue;
+  list-style: upper-alpha;
 }
 
-.dias .lista{
-    text-decoration: underline;
-    font-size: 25px;
+.dias > .lista {
+  text-decoration: underline;
+  font-size: 25px;
 }
+
+/** Combinador de hermano adyacente*/
+
+.subtitlo + .parrafo {
+  background-color: yellow;
+  opacity: 0;
+  transition: 1s;
+}
+
+.parrafo {
+  background-color: rebeccapurple;
+}
+
+/* hover es una pseudoclase, es un comportamiento en el navegador */
+.subtitlo:hover + .parrafo {
+  display: block;
+  opacity: 1;
+}
+
+/** Combinador de hermanos generales*/
+
+.subtitlo ~ .parrafo {
+  font-size: 20px;
+}
+
+

@@ -1,0 +1,35 @@
+/** Selector de atributo */
+
+[class] {
+  background-color: aqua;
+}
+
+[value] {
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/*? Este selecciona los elementos que en su value tengan cursocss.com*/
+[value~="cursocss.com"]{
+    font-size: 20px;
+}
+
+/*? Este selecciona el elemento que tenga al principio su respectivo valor*/
+[value^="Aquí"]{
+    background-color: blueviolet;
+}
+
+/*? Este selecciona el elemento que tenga al final su respectivo valor */
+[value$="contraseña"]{
+    background-color: rgb(221, 255, 31);
+}
+
+/*? Este elemento selecciona todas las coincidencias, es como una expresion regular */
+[value*="."]{
+    background-color: rgb(0, 38, 255);
+}
+
+[type="text"]{
+    background-color: brown;
+}
