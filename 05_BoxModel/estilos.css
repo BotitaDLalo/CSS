@@ -11,6 +11,74 @@ body {
 
 .card {
   background-color: royalblue;
+  color: rgb(10, 10, 10);
+  
+  /*? Alto y ancho */
+  /* width: 200px;
+  max-width: 300px;
+  min-width: 100px;
+  
+  height: 200px;
+  max-height: 300px;
+  min-height: 100px; */
+
+  /* display: block; */
+  
+  width: 300px;
+
+  overflow: hidden;
+
+  /*? Padding */
+  /* padding-top: 20px;
+  
+  padding-right: 20px;
+  
+  padding-left: 20px;
+  
+  padding-bottom: 20px; */
+
+  padding: 20px 40px 60px;
+
+  /*? Border*/
+  border: 10px black solid;
+
+  /*todo  propiedades de border: width, color, style*/
+
+  border-width: 10px 20px 30px 40px;
+
+  border-color: pink lightblue chartreuse yellow;
+
+  border-style: ridge dotted solid dashed;
+}
+/*? Margin*/
+/*todo Para usar margenes automaticos, se deben tener 2 requisitos*/
+/*
+? 1.- tener display: block
+
+? 2.- tener un width definido
+
+* nota: los elementos div ya son elementos bloque, asi que no es necesario  display: block;
+*/
+.card--one {
+  /* margin: 50px 60px 70px 80px; */
+  margin-right: auto;
+}
+
+.card__title {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.card__paragraph {
+  margin-bottom: 30px;
+}
+
+.main{
+  background-color: steelblue;
   color: white;
-  width: 200px;
+}
+
+.footer{
+  background-color: slateblue;
+  color: white;
 }
