@@ -1,0 +1,43 @@
+/** block y inline*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*< display: block*/
+/*
+? Caractiristicas:
+# 1.- Provoca un salto de linea, por que toma el 100% de su contenedor
+# 2.- Los elementos block pueden usar todas las propiedades del box-model
+# 3.- Se les puede asignar un margen automatico, pero debe tener un width definido
+*/
+
+/*< display: inline*/
+/*
+? Caractiristicas:
+# 1.- No provoca un salto de linea, pero si genera un espacio entre un elemento y otro
+# 2.- Solamente ocupan el espacio de su contenido
+# 3.- Los elementos inline no pueden usar las propiedades del box-model
+*/
+
+.title {
+  background-color: chocolate;
+  width: 200px;
+  margin: 0 auto;
+}
+
+/*
+< display: inline-block
+# display: inline-block es un hibrido de inline, el cual te permite usar inline y tambien poder utilizar las propiedades del box-model
+*/
+
+.btn {
+  display: inline-block;
+  background-color: steelblue;
+  color: rgb(255, 255, 255);
+  padding-top: 100px;
+}
+
+body{
+  font-family: arial;
+}

@@ -12,7 +12,7 @@ body {
 .card {
   background-color: royalblue;
   color: rgb(10, 10, 10);
-  
+
   /*? Alto y ancho */
   /* width: 200px;
   max-width: 300px;
@@ -23,7 +23,7 @@ body {
   min-height: 100px; */
 
   /* display: block; */
-  
+
   width: 300px;
 
   overflow: hidden;
@@ -51,7 +51,7 @@ body {
   border-style: ridge dotted solid dashed;
 }
 /*? Margin*/
-/*todo Para usar margenes automaticos, se deben tener 2 requisitos*/
+/*# Para usar margenes automaticos, se deben tener 2 requisitos*/
 /*
 ? 1.- tener display: block
 
@@ -59,9 +59,18 @@ body {
 
 * nota: los elementos div ya son elementos bloque, asi que no es necesario  display: block;
 */
+
 .card--one {
   /* margin: 50px 60px 70px 80px; */
   margin-right: auto;
+}
+
+.card {
+  /* box-sizing: border-box; */
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border: 5px solid black;
 }
 
 .card__title {
@@ -73,12 +82,19 @@ body {
   margin-bottom: 30px;
 }
 
-.main{
+/** Colapso de margenes*/
+.main {
   background-color: steelblue;
   color: white;
+  padding: 0.1px;
 }
 
-.footer{
+.main__title {
+  margin-bottom: 50px;
+}
+
+.footer {
   background-color: slateblue;
   color: white;
+  /* margin-top: 50px; */
 }

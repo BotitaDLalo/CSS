@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.title{
+    background-color: aquamarine;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.btn{
+    display: inline;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 10px;
+}
