@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 50px;
+
+  /* border-radius: 50% ; */
+  border-radius: 10px 60px 110px 30px;
+
+  /*- box-shadow: offset-x offset-y blur spread color; */
+
+  box-shadow: 30px 30px 5px 15px #9d2cff25;
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.padre {
+  background-color: chartreuse;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.hijo {
+  background-color: steelblue;
+  height: 25px;
+  width: 25px;
+  border-radius: 20px;
+  padding-top: 0.1px;
+}
+
+.nieto {
+  background-color: black;
+  height: 10px;
+  width: 30px;
+  margin-top: 7px;
+  margin-left: -15px;
+}
