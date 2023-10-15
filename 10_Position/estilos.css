@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 500vh;
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+  border: 4px solid;
+  min-height: 500px;
+  position: relative;
+}
+
+.element {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+/** static es el valor de posicion por defecto de todos los elementos*/
+/*- static no se considera como un posicionamiento*/
+.static {
+  background-color: tomato;
+}
+
+/** relative desbloquea 4 valores de offset, permiten cambiar o desplazar al elemento a traves del navegador, en base a una posicion*/
+.relative {
+  position: relative;
+  background-color: steelblue;
+  left: 30px;
+}
+
+/** absolute puede posicionarse en cualquier parte, pero ya no tiene un espacio recerbado en el flujo natural de los elementos*/
+
+/*- El posicionamiento de absolute se basa en su padre o contenedor mas cercano, que tenga un position que no sea static*/
+
+/*-Si su padre no tiene un position diferente a static, el elemento basicamente se posiciona al viewport*/
+.absolute {
+  position: absolute;
+  background-color: teal;
+}
+
+/** fixed es parecido a absolute si su padre no tiene un position diferente a static*/
+
+/*- fixed se posiciona directamente al viewport*/
+
+.fixed {
+  background-color: crimson;
+  position: fixed;
+  top: 60px;
+}

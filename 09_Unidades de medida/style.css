@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 1000px;
+}
+
+.container {
+  padding: 40px;
+  width: 100vw; 
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.container-child{
+    font-size: 32px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+/*
+-Unidad relativa: rem
+
+* 1rem => equivale al font-size de la raiz del documento
+# El font-size por defecto es de 16px
+< si font-size:16px, entones 2rem = 16px * 2 => = 32px
+*/
+.title__rem{
+    font-size: 2rem;
+}
+
+
+/*
+-Unidad relativa: em
+
+* 1em => equivale al font-size de su componente padre mas proximo
+< si el padre tiene font-size:30px, 1rem sera igual a ese font-size
+*/
+.title__em{
+    font-size: 1em;
+    background-color: coral;
+}
